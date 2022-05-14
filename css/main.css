@@ -251,6 +251,7 @@ ul.prof-icon {
 
 .prof-icon li:hover {
     color: #ff305b;
+    
 }
 
 .profile-desc {
@@ -317,8 +318,10 @@ ul.prof-icon {
 }
 
 .profile-about button:hover {
-    background-color: #f80636;
-    cursor: pointer;
+    background-color: #ffffff;
+    color: black;
+    border: 2px black solid;
+font-weight: 900;    cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
