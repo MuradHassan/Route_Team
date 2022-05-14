@@ -896,10 +896,94 @@ margin-bottom: 20px;}
 
 /* Start Conact */
 
+.contact-us{
+padding: 5%;
+}
+.contact-us h2
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 250%;
+}
+.contact-us hr{
+    margin: auto;
+    width:6%;
+    margin-top: 3px;
+    border: solid 1px rgb(250, 117, 144) ;
+}
+.contact-us .hr-big{
+    width: 10%;
+}
+.contact-us form{
+    width: 60%;
+    margin: auto;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-us input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.contact-us .width-40{
+    width:48%;
+}
+.contact-us textarea{
+    width:100%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.contact-us button{
+    background-color:rgb(255, 48, 91);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 2px;
+}
+.contact-us button:hover{
+    background-color:red;
+}
 /* End Conact */
 
 
 
 /* Start Footer */
 
+footer{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+footer .icons{
+    width:100%;
+}
+footer .copy-rigths{
+    width:100%;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+footer i{
+    margin: 10px;
+}
+footer span{
+    color: rgb(255, 48, 91);
+}
+footer i:hover{
+    color: rgb(255, 48, 91);
+}
+@media screen and (max-width: 768px) {
+    .contact-us .width-40{
+        width:100%;
+    }
+}
 /* End Footer */
