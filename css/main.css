@@ -546,12 +546,88 @@ ul.prof-icon{
 
 
 /* Start Our-Portfolio */
+.product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.one{
+    width: 30%;
+    padding: 10px;
 
+}
+.two{
+    width: 30%;
+    padding: 10px;
+
+}
+.three{
+    width: 30%;
+padding: 10px;
+}
+.four{
+    width: 30%;
+    padding: 10px;
+
+
+}
+.five{
+    width: 30%;
+    padding: 10px;
+
+
+}
+.six{
+    width: 30%;
+    padding: 10px;
+
+}
+.adress{
+    text-align: center;
+    padding: 40px;
+    font: bolder;
+}
+.leaves a{
+    text-decoration: none;
+    padding: 15px;
+    color: #333;
+    font-weight: 300;
+}
+.leaves{
+    text-align: center;
+}
 /* End Our-Portfolio */
 
 
 
 /* Start Counter */
+.containicon{
+    display: flex;
+    justify-content: baseline;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    height: 25vh;
+    align-items: center;
+}
+.ione{
+    text-align: center;
+}
+.itwo{
+    text-align: center;
+}
+.ithree{
+    text-align: center;
+}
+.ifour{
+    text-align: center;
+}
+i{
+    color: #ff305b;
+    font-size: 40px;
+}
+.paddin{
+    height: 8vh;
+}
 
 /* End Counter */
 
